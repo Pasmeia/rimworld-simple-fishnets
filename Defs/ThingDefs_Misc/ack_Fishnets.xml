@@ -15,7 +15,7 @@
 			<li>Leathery</li>
 		</stuffCategories>
 		<thingCategories>
-			<li>Apparel</li>
+			<li>ApparelMisc</li>
 		</thingCategories>
 		<tradeability>Sellable</tradeability>
 		<statBases>
@@ -207,7 +207,7 @@
 			<li>Leathery</li>
 		</stuffCategories>
 		<thingCategories>
-			<li>Apparel</li>
+			<li>ApparelMisc</li>
 		</thingCategories>
 		<tradeability>Sellable</tradeability>
 		<statBases>
@@ -228,7 +228,7 @@
 			</bodyPartGroups>
 				<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<wornGraphicPath>Things/Apparel/ack_Fishnets/FishnetA2</wornGraphicPath>
-			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
 			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 			<layers>
 				<li>OnSkin</li>
@@ -291,7 +291,7 @@
 			</bodyPartGroups>
 				<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<wornGraphicPath>Things/Apparel/ack_Fishnets/FishnetB2</wornGraphicPath>
-			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
 			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 			<layers>
 				<li>OnSkin</li>
@@ -355,7 +355,7 @@
 			</bodyPartGroups>
 				<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<wornGraphicPath>Things/Apparel/ack_Fishnets/FishnetC2</wornGraphicPath>
-			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
 			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 			<layers>
 				<li>OnSkin</li>
