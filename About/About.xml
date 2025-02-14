@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Simple Fishnets</name>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<modVersion IgnoreIfNoMatchingField="True">1.0</modVersion>
+	<packageId>Pasmeia.Simple.Fishnets</packageId>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.royalty</li>
+		<li>Ludeon.RimWorld.ideology</li>
+		<li>Ludeon.RimWorld.biotech</li>
+		<li>Ludeon.RimWorld.anomaly</li>
+	</loadAfter>
+	<author>Pasmeia</author>
+	<description>Simple mod which adds 6 fishnets for all vanilla bodytypes (adult only).
+
+[list]
+[*]Craftable (included support for large tailoring station from VFE Production)
+[*]Using material color (it doesn't really make sence for all of them to be black)
+[*]Can be worn by nudists without mood penalty
+[*]Recipes require complex clothing to be researched
+[*]Textures are 512*512, dds included
+[/olist]
+
+As this is my first mod i may have failed miserably somewhere, though nothing game-breaking happened while testing.
+
+Credits:
+Catbot1310 for [url=steamcommunity.com/sharedfiles/filedetails/?id=3220409926] Fishnets for Nal's Realistic Body [/url] (which served as an inspiration).
+peresabcod for [url=www.deviantart.com/peresabcod/art/Seamless-Fishnet-Lingerie-Texture-Pack-2-810850293] Seamless Fishnet - Lingerie Texture Pack 2 [/url] (i have failed at making my own).
+Neronix17 for [url=steamcommunity.com/sharedfiles/filedetails/?id=2275310562] Vanilla Pawns Retextured [/url] (which body textures i used as a base).
+	</description>
+</ModMetaData>

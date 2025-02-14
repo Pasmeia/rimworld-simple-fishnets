@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>ack_FishnetA</defName>
+		<label>Fishnet A</label>
+		<description>A full-body garment with very little body coverage. Doesn't provide noticeable temperature protection or armor.</description>
+		<graphicData>
+			<texPath>Things/Apparel/ack_Fishnets/FishnetA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToMake>1400</WorkToMake>
+			<Mass>0.12</Mass>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+				<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<wornGraphicPath>Things/Apparel/ack_Fishnets/FishnetA</wornGraphicPath>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>IndustrialBasic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Nudist</li>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>BasicClothing</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+    <ThingDef ParentName="ApparelMakeableBase">
+		<defName>ack_FishnetB</defName>
+		<label>Fishnet B</label>
+		<description>A full-body garment with very little body coverage. Doesn't provide noticeable temperature protection or armor.</description>
+		<graphicData>
+			<texPath>Things/Apparel/ack_Fishnets/FishnetB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>ApparelMisc</li>
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToMake>1400</WorkToMake>
+			<Mass>0.12</Mass>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+				<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<wornGraphicPath>Things/Apparel/ack_Fishnets/FishnetB</wornGraphicPath>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>IndustrialBasic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Nudist</li>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>BasicClothing</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>ack_FishnetC</defName>
+		<label>Fishnet C</label>
+		<description>A full-body garment with very little body coverage. Doesn't provide noticeable temperature protection or armor.</description>
+		<graphicData>
+			<texPath>Things/Apparel/ack_Fishnets/FishnetC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>ApparelMisc</li>
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1400</WorkToMake>
+			<Mass>0.12</Mass>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+				<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<wornGraphicPath>Things/Apparel/ack_Fishnets/FishnetC</wornGraphicPath>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>IndustrialBasic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Nudist</li>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>BasicClothing</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>ack_FishnetA2</defName>
+		<label>Fishnet A2</label>
+		<description>A full-body garment with very little body coverage. Doesn't provide noticeable temperature protection or armor.</description>
+		<graphicData>
+			<texPath>Things/Apparel/ack_Fishnets/FishnetA2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToMake>1400</WorkToMake>
+			<Mass>0.12</Mass>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+				<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<wornGraphicPath>Things/Apparel/ack_Fishnets/FishnetA2</wornGraphicPath>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>IndustrialBasic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Nudist</li>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>BasicClothing</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+    <ThingDef ParentName="ApparelMakeableBase">
+		<defName>ack_FishnetB2</defName>
+		<label>Fishnet B2</label>
+		<description>A full-body garment with very little body coverage. Doesn't provide noticeable temperature protection or armor.</description>
+		<graphicData>
+			<texPath>Things/Apparel/ack_Fishnets/FishnetB2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>ApparelMisc</li>
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToMake>1400</WorkToMake>
+			<Mass>0.12</Mass>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+				<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<wornGraphicPath>Things/Apparel/ack_Fishnets/FishnetB2</wornGraphicPath>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>IndustrialBasic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Nudist</li>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>BasicClothing</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>ack_FishnetC2</defName>
+		<label>Fishnet C2</label>
+		<description>A full-body garment with very little body coverage. Doesn't provide noticeable temperature protection or armor.</description>
+		<graphicData>
+			<texPath>Things/Apparel/ack_Fishnets/FishnetC2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>ApparelMisc</li>
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1400</WorkToMake>
+			<Mass>0.12</Mass>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+				<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<wornGraphicPath>Things/Apparel/ack_Fishnets/FishnetC2</wornGraphicPath>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>IndustrialBasic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Nudist</li>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>BasicClothing</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+</Defs>
