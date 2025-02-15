@@ -20,7 +20,7 @@
 		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
-			<WorkToMake>1400</WorkToMake>
+			<WorkToMake>1600</WorkToMake>
 			<Mass>0.12</Mass>
 			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
@@ -83,7 +83,7 @@
 		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
-			<WorkToMake>1400</WorkToMake>
+			<WorkToMake>1600</WorkToMake>
 			<Mass>0.12</Mass>
 			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
@@ -145,8 +145,8 @@
 		</thingCategories>
 		<tradeability>Sellable</tradeability>
 		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<WorkToMake>1400</WorkToMake>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToMake>1600</WorkToMake>
 			<Mass>0.12</Mass>
 			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
@@ -156,7 +156,6 @@
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
-				<li>Neck</li>
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
@@ -201,7 +200,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
-		<costStuffCount>35</costStuffCount>
+		<costStuffCount>30</costStuffCount>
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
@@ -211,9 +210,9 @@
 		</thingCategories>
 		<tradeability>Sellable</tradeability>
 		<statBases>
-			<MaxHitPoints>90</MaxHitPoints>
+			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToMake>1400</WorkToMake>
-			<Mass>0.12</Mass>
+			<Mass>0.1</Mass>
 			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
@@ -223,8 +222,6 @@
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
-				<li>Arms</li>
-				<li>Legs</li>
 			</bodyPartGroups>
 				<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<wornGraphicPath>Things/Apparel/ack_Fishnets/FishnetA2</wornGraphicPath>
@@ -264,7 +261,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
-		<costStuffCount>35</costStuffCount>
+		<costStuffCount>30</costStuffCount>
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
@@ -274,9 +271,9 @@
 		</thingCategories>
 		<tradeability>Sellable</tradeability>
 		<statBases>
-			<MaxHitPoints>90</MaxHitPoints>
+			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToMake>1400</WorkToMake>
-			<Mass>0.12</Mass>
+			<Mass>0.1</Mass>
 			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
@@ -286,8 +283,6 @@
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
-				<li>Arms</li>
-				<li>Legs</li>
 			</bodyPartGroups>
 				<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<wornGraphicPath>Things/Apparel/ack_Fishnets/FishnetB2</wornGraphicPath>
@@ -327,7 +322,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
-		<costStuffCount>35</costStuffCount>
+		<costStuffCount>30</costStuffCount>
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
@@ -337,9 +332,9 @@
 		</thingCategories>
 		<tradeability>Sellable</tradeability>
 		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
+			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToMake>1400</WorkToMake>
-			<Mass>0.12</Mass>
+			<Mass>0.1</Mass>
 			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
@@ -348,10 +343,7 @@
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
-				<li>Neck</li>
 				<li>Shoulders</li>
-				<li>Arms</li>
-				<li>Legs</li>
 			</bodyPartGroups>
 				<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<wornGraphicPath>Things/Apparel/ack_Fishnets/FishnetC2</wornGraphicPath>
