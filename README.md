@@ -2,7 +2,7 @@
 Simple mod which adds 6 fishnets for all vanilla bodytypes (adult only).
 
 * Craftable (included support for large tailoring station from VFE Production)
-* Using material color (it doesn't really make sence for all of them to be black)
+* Using material color (it doesn't really make sense for all of them to be black)
 * Can be worn by nudists without mood penalty
 * Recipes require complex clothing to be researched
 * Textures are 512*512, dds included
