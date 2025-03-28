@@ -18,6 +18,7 @@
 			<li>ApparelMisc</li>
 		</thingCategories>
 		<tradeability>Sellable</tradeability>
+		<generateAllowChance>0.01</generateAllowChance>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<WorkToMake>1600</WorkToMake>
@@ -62,7 +63,8 @@
 			<li>BasicClothing</li>
 		</tradeTags>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
-    </ThingDef>
+	</ThingDef>
+
     <ThingDef ParentName="ApparelMakeableBase">
 		<defName>ack_FishnetB</defName>
 		<label>Fishnet B</label>
@@ -81,6 +83,7 @@
 			<li>ApparelMisc</li>
 		</thingCategories>
 		<tradeability>Sellable</tradeability>
+		<generateAllowChance>0.01</generateAllowChance>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<WorkToMake>1600</WorkToMake>
@@ -125,7 +128,8 @@
 			<li>BasicClothing</li>
 		</tradeTags>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
-    </ThingDef>
+	</ThingDef>
+
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>ack_FishnetC</defName>
 		<label>Fishnet C</label>
@@ -144,6 +148,7 @@
 			<li>ApparelMisc</li>
 		</thingCategories>
 		<tradeability>Sellable</tradeability>
+		<generateAllowChance>0.01</generateAllowChance>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<WorkToMake>1600</WorkToMake>
@@ -189,7 +194,7 @@
 			<li>BasicClothing</li>
 		</tradeTags>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
-    </ThingDef>
+	</ThingDef>
 
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>ack_FishnetA2</defName>
@@ -209,13 +214,14 @@
 			<li>ApparelMisc</li>
 		</thingCategories>
 		<tradeability>Sellable</tradeability>
+		<generateAllowChance>0.01</generateAllowChance>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToMake>1400</WorkToMake>
 			<Mass>0.1</Mass>
 			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0.06</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.16</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<apparel>
@@ -251,8 +257,9 @@
 			<li>BasicClothing</li>
 		</tradeTags>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
-    </ThingDef>
-    <ThingDef ParentName="ApparelMakeableBase">
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>ack_FishnetB2</defName>
 		<label>Fishnet B2</label>
 		<description>A full-body garment with very little body coverage. Doesn't provide noticeable temperature protection or armor.</description>
@@ -270,13 +277,14 @@
 			<li>ApparelMisc</li>
 		</thingCategories>
 		<tradeability>Sellable</tradeability>
+		<generateAllowChance>0.01</generateAllowChance>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToMake>1400</WorkToMake>
 			<Mass>0.1</Mass>
 			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0.06</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.16</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<apparel>
@@ -312,7 +320,8 @@
 			<li>BasicClothing</li>
 		</tradeTags>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
-    </ThingDef>
+	</ThingDef>
+
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>ack_FishnetC2</defName>
 		<label>Fishnet C2</label>
@@ -331,13 +340,14 @@
 			<li>ApparelMisc</li>
 		</thingCategories>
 		<tradeability>Sellable</tradeability>
+		<generateAllowChance>0.01</generateAllowChance>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToMake>1400</WorkToMake>
 			<Mass>0.1</Mass>
 			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0.06</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.16</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<apparel>
